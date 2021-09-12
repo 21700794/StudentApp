@@ -22,7 +22,7 @@ public class Main {
 		al.add(new Student(109, "Seo", 23));
 		al.add(new Student(110, "Bang", 27));
 		
-		Collections.sort(al); //Traverse elements of arraylist (ordered)
+		Collections.sort(al); //Traverse elements of ArrayList (ordered)
 		for (Student s : al) {
 			System.out.println(s.toString());
 		}
